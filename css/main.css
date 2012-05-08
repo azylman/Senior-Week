@@ -94,7 +94,39 @@ li {
 
 #calendar {
 	background: rgba(0, 0, 0, .7);
-	height: 500px;
 	border-radius: 10px;
 	box-shadow: 0px 1px 10px 4px #fff;
+	padding: 30px;
+}
+
+.day {
+	background-color: #ECECF8;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px 4px #705bbb;
+}
+
+.day-name {
+	font-weight: 700;
+	float: right;
+}
+
+.day-header {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.activity {
+	color: #705bbb;
+	font-weight: 700;
+	line-height: 14px;
+}
+
+/* add a top margin to all activities except the first */
+.activity + .activity {
+	margin-top: 10px;
+}
+
+.calendar-row + .calendar-row {
+	margin-top: 30px;
 }
