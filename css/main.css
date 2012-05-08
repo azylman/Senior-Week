@@ -135,8 +135,10 @@ li {
 }
 
 .graduation {
-	font-size: 30px;
+	font-size: 36px;
 	color: #00a651;
+	margin-top: 5px;
+	margin-bottom: 25px;
 }
 
 /* add a top margin to all activities except the first */
