@@ -74,8 +74,11 @@ li {
 /* ==== GENERAL STYLES ==== */
 
 #outer-shadow {
-	box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, .5);
+	/*box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, .5);*/
 	border-radius: 0px 0px 10px 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-left: 1px solid rgba(0, 0, 0, .2);
+	border-right: 1px solid rgba(0, 0, 0, .2);
 }
 
 #main-content {
@@ -83,7 +86,8 @@ li {
 	padding: 30px;
 	
 	/* this makes the background on the tab better match the background of the page, but then you don't get any of the texture */
-	/* background-color: #ECECF8; */
+	/*background-color: #ECECF8;*/
+	background-color: rgba(236, 236, 248, .3);
 	
 	border-radius: 0px 0px 10px 10px;
 }
@@ -93,7 +97,7 @@ li {
 /* ==== CALENDAR ==== */
 
 #calendar {
-	background: rgba(0, 0, 0, .7);
+	background: rgba(0, 0, 0, .5);
 	border-radius: 10px;
 	box-shadow: 0px 1px 10px 4px #fff;
 	padding: 30px;
@@ -104,6 +108,9 @@ li {
 	padding: 15px;
 	border-radius: 5px;
 	box-shadow: 0px 1px 10px 4px #705bbb;
+	
+	/* this is a MAGIC NUMBER - it should always be the height of the largest box */
+	height: 182px;
 }
 
 .day-name {
@@ -122,11 +129,16 @@ li {
 	line-height: 14px;
 }
 
+.cost {
+	color: #f1e001;
+}
+
 /* add a top margin to all activities except the first */
 .activity + .activity {
 	margin-top: 10px;
 }
 
+/* add a top margin to all rows in the calendar except the last */
 .calendar-row + .calendar-row {
 	margin-top: 30px;
 }
