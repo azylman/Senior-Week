@@ -1,0 +1,100 @@
+body {
+	background-image: url("../images/bg.png");
+	background-size: 100% 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* ==== NAV BAR ==== */
+
+li {
+	font-weight: 700;
+	font-size: 22px;
+	
+	/* move the elements down slightly so it intersects bottom of nav bar */
+	margin-top: 1px;
+}
+
+/* the top links that aren't active */
+.navbar .nav > li > a {
+	color: #603913; /* brown color */
+	text-shadow: none;
+}
+
+/* active top link */
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+	background-color: #ECECF8; /* background bluish/purple */
+	color: #603913; /* brown color */
+	text-shadow: none;
+}
+
+/* navbar styles */
+.navbar-inner {
+	background-color: #b0adb6;
+	background-image: none;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+
+
+/* ==== LANDING PAGE ==== */
+
+#fouryears {
+	margin-top: 130px;
+	margin-left: 60px;
+	font-size: 50px;
+}
+
+#deserve {
+	font-size: 65px;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.purple {
+	color: #705bbb;
+}
+
+#logo {
+	margin-top: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#enter {
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+/* ==== GENERAL STYLES ==== */
+
+#outer-shadow {
+	box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, .5);
+	border-radius: 0px 0px 10px 10px;
+}
+
+#main-content {
+	margin-top: -18px;
+	padding: 30px;
+	
+	/* this makes the background on the tab better match the background of the page, but then you don't get any of the texture */
+	/* background-color: #ECECF8; */
+	
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+
+/* ==== CALENDAR ==== */
+
+#calendar {
+	background: rgba(0, 0, 0, .7);
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 4px #fff;
+}
