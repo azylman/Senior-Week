@@ -158,3 +158,14 @@ li {
 .conv-list {
 	color: #888;
 }
+
+
+
+/* ==== TICKETS ==== */
+
+#tickets {
+	background: #B0ADB6;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 4px #fff;
+	padding: 30px;
+}
