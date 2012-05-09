@@ -197,6 +197,45 @@ li {
 
 
 
+/* ==== ABOUT ==== */
+#about {
+	background: rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 4px #fff;
+	padding: 30px;
+	font-size: 35px;
+	line-height: 35px;
+	
+	text-align: justify;
+}
+
+#committee > div {
+	margin-top: 20px;
+}
+
+.heavy {
+	font-weight: 700;
+}
+
+#seniorweek {
+	color: #705bbb;
+	
+	margin-bottom: 30px;
+}
+
+#committee {
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+#committee-title {
+	text-align: center;
+	font-weight: 700;
+}
+
+
+
 /* ==== CONTACT ==== */
 
 #contact {
