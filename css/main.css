@@ -17,14 +17,20 @@ li {
 
 /* the top links that aren't active */
 .navbar .nav > li > a {
-	color: #603913; /* brown color */
+	/* brown color */
+	/* color: #603913; */
+	
+	color: #705bbb;
 	text-shadow: none;
 }
 
 /* active top link */
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
 	background-color: #ECECF8; /* background bluish/purple */
-	color: #603913; /* brown color */
+	/* brown color */
+	/* color: #603913; */
+	
+	color: #705bbb;
 	text-shadow: none;
 }
 
