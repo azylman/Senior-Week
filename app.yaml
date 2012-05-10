@@ -14,7 +14,12 @@ handlers:
 
 - url: /schedule
   script: schedule.app
-  
+- url: /tickets
+  script: tickets.app
+- url: /about
+  script: about.app
+- url: /contact
+  script: contact.app
 - url: /.*
   script: landing.app
   
