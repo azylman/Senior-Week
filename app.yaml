@@ -20,6 +20,8 @@ handlers:
   script: about.app
 - url: /contact
   script: contact.app
+- url: /keepalive
+  script: keepalive.app
 - url: /.*
   script: landing.app
   

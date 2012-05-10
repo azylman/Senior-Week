@@ -1,0 +1,4 @@
+cron:
+- description: regular keepalive
+  url: /keepalive
+  schedule: every 2 minutes
