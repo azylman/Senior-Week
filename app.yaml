@@ -11,6 +11,9 @@ handlers:
   static_dir: bootstrap
 - url: /images
   static_dir: images
+
+- url: /schedule
+  script: schedule.app
   
 - url: /.*
   script: landing.app
