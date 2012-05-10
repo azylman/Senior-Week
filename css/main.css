@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/bg.png");
+	background-image: url("/images/bg.png");
 	background-size: 100% 100%;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
@@ -136,15 +136,15 @@ li {
 }
 
 .cost {
-	color: #f1e001;
-	text-shadow: 1px 1px rgba(0, 0, 0, .5);
+	color: #0D8C4B;
 }
 
 .graduation {
 	font-size: 36px;
-	color: #00a651;
+	color: #F1E001;
 	margin-top: 5px;
 	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
 }
 
 /* add a top margin to all activities except the first */
