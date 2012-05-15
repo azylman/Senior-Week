@@ -110,6 +110,10 @@ li {
 	padding: 30px;
 }
 
+#calendar a {
+	color: inherit;
+}
+
 .day {
 	background-color: #ECECF8;
 	padding: 15px;
