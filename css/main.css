@@ -284,6 +284,10 @@ li {
 	font-weight: 600;
 }
 
+#event-day-list li {
+	line-height: 25px;
+}
+
 .events-day {
 	color: #fff;
 }
