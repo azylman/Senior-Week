@@ -7,7 +7,7 @@ jinja_environment = jinja2.Environment(
 
 class MainPage(webapp2.RequestHandler):
   def get(self):
-    template = jinja_environment.get_template('templates/events.html')
+    template = jinja_environment.get_template('templates/events/events.html')
     self.response.out.write(template.render())
 
 app = webapp2.WSGIApplication([('/events', MainPage)],
