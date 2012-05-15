@@ -117,7 +117,7 @@ li {
 	box-shadow: 0px 1px 10px 4px #705bbb;
 	
 	/* this is a MAGIC NUMBER - it should always be the height of the largest box */
-	height: 182px;
+	height: 206px;
 }
 
 .day-name {
