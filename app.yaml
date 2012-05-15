@@ -22,6 +22,8 @@ handlers:
   script: contact.app
 - url: /keepalive
   script: keepalive.app
+- url: /events/.*
+  script: events.app
 - url: /events
   script: events.app
 - url: /.*
