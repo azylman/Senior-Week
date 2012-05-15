@@ -51,6 +51,12 @@ li {
 	box-shadow: none;
 }
 
+.social {
+	margin-top: 0px;
+	height: 39px;
+	padding: 0 !important;
+}
+
 
 
 /* ==== LANDING PAGE ==== */
